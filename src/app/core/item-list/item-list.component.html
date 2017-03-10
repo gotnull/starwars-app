@@ -1,0 +1,13 @@
+<h2>{{ itemsName }}!</h2>
+
+<starwars-spinner *ngIf="loading | async">
+</starwars-spinner>
+
+<ul>
+  <li *ngFor="let item of items | async trackBy:getItemName">
+    {{ item.name }}
+  </li>
+</ul>
+
+<starwars-error-well *ngIf="error | async">
+</starwars-error-well>
