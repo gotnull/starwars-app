@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Example App: Star Wars
 
 [![CircleCI](https://circleci.com/gh/angular-redux/example-app.svg?style=svg)](https://circleci.com/gh/angular-redux/example-app)
@@ -38,6 +37,3 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# starwars-app
->>>>>>> d7141cf3dbdb2bea72e601287cd30acc78b2fab4
